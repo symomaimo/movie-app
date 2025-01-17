@@ -1,0 +1,17 @@
+.pill{
+    height: 35px;
+    border: 0.6px solid gray;
+    min-width: 120px;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+
+.pill-title{
+    font-size: 15px;
+    /* color: black; */
+    font-weight: normal;
+}

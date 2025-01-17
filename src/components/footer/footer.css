@@ -1,0 +1,26 @@
+.footer-container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 200px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures footer is pushed to the bottom */
+  }
+  
+  main {
+    flex: 1; /* Takes up remaining space */
+   
+  }
+  
+  footer {
+    /* Styles for footer */
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  

@@ -1,0 +1,29 @@
+.search-input-container{
+    width: 100%;
+    margin: 20px 0px 20px 0px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+input:focus{
+
+}
+
+.search{
+ width: 95%;
+ height: 40px;
+ padding: 0px 20px 0px 20px;
+ border-radius: 30px;
+ border: none;
+}
+.search[input]:focus {
+
+}
+.movielist-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.search-input-container > svg {
+    cursor: pointer;
+}

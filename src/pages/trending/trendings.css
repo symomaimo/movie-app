@@ -1,0 +1,30 @@
+.trending-section-container{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 30px;
+    /* display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; */
+}
+.trendings-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.trendings-container{
+    display: flex;
+    /* border: 1px solid black; */
+    flex-wrap: wrap;
+    gap: 40px;
+    /* height: 300px; */
+    /* width: 230px; */
+    /* border-radius: 5px; */
+   /* cursor: pointer; */
+}
+.poster-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}

@@ -1,0 +1,37 @@
+.main-header{
+    height: 120px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    /* border: 1px solid black; */
+}
+.inner-header{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* border: 1px solid black; */
+}
+.logo-container{
+width: 100px;
+height: 100px;
+}
+.logo-image{
+width: 80%;
+height: 100%;
+object-fit: cover;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.links > a{
+    text-decoration: none;
+}
+.active{
+    color:blue
+}

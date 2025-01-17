@@ -1,0 +1,8 @@
+.main-container{
+    min-height: 80vh;
+    /* height: 80vh; */
+    /* overflow-y: auto; */
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
