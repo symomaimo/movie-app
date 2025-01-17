@@ -73,6 +73,7 @@ const MoviesList = () => {
   };
 
   const onPageChange = (pageNumber) => {
+    console.log("nuibjykugiujf")
     setPage(pageNumber);
   };
 
