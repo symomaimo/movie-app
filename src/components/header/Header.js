@@ -18,6 +18,7 @@ const Header = () => {
           <NavLink to="/series">Series</NavLink>
           <NavLink to="/trending">Trending</NavLink>
           <NavLink to="/trending-shows">Tv shows</NavLink>
+          <NavLink to="/trending-shows">Sitcoms</NavLink>
         </div>
       </div>
     </div>
