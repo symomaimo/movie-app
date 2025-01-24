@@ -19,7 +19,12 @@ const MovieCard = ({ movie ,title}) => {
         src={posterPath + movie.poster_path}
         alt="poster"
         title
+        
       />
+        <img className="rating" src="/sparkling.png" alt="star" /> 
+     <p className="database"> {movie?.vote_average}</p>
+     <p className="title">{movie?.original_title}</p>
+      
       <moviename>{title}</moviename>
     </div>
   );

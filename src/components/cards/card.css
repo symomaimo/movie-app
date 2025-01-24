@@ -12,3 +12,17 @@
     object-fit: cover;
     border-radius: 5px;
 }
+.rating{
+    width: 23px;
+    height: 21px;
+    margin-top: -1px;
+}
+.database{
+    margin-top: -5px;
+}
+.title{
+display: flex;
+margin-top: -50px;
+margin-left:50px ;
+width: 200px;
+}
