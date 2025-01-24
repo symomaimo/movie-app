@@ -6,11 +6,7 @@ const Header = () => {
     <div className="main-header">
       <div className="inner-header">
         <div className="logo-container">
-          <img
-            className="logo-image"
-            src="/movies-app.png"
-            alt="logo"
-          />
+          <img className="logo-image" src="/movies-app.png" alt="logo" />
         </div>
         <div className="links">
           <NavLink to="/">Movies</NavLink>
@@ -18,7 +14,6 @@ const Header = () => {
           <NavLink to="/series">Series</NavLink>
           <NavLink to="/trending">Trending</NavLink>
           <NavLink to="/trending-shows">Tv shows</NavLink>
-          <NavLink to="/trending-shows">Sitcoms</NavLink>
         </div>
       </div>
     </div>
